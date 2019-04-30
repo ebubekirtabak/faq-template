@@ -1,8 +1,9 @@
 <template>
-
+    <CKEditorComponent></CKEditorComponent>
 </template>
 
 <script>
+import CKEditorComponent from './CKEditorComponent';
 export default {
   name: 'QuestionEditorComponent',
   props: {
